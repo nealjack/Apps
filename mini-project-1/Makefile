@@ -14,7 +14,7 @@ CFLAGS    += -DTHREAD_STACKSIZE_DEFAULT=2048
 #USEMODULE += auto_init_saul
 #USEMODULE += tmp006          # ambient temperature
 #USEMODULE += hdc1000         # humidity and temperature
-#USEMODULE += fxos8700        # acceleration and magnetic field
+USEMODULE += fxos8700        # acceleration and magnetic field
 #USEMODULE += apds9007        # illumination
 #USEMODULE += ekmb1101111     # pir-based occupancy
 #USEMODULE += push_button     # simple button
